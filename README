@@ -1,1 +1,37 @@
+INTRODUCTION
+  
+Coronavirus disease(COVID-19) have been changed our life. 
+The World Health Organization (WHO) has declared the COVID-19 outbreak as a global pandemic. 
+The rapid increase in patient numbers has caused a shortage of hospital's capabilities. 
+A patient who has been infected with COVID-19 showed some symptoms such as fever, fatigue, chills, headache, myalgia, arthralgia, nausea, swelling, diarrhea, redness, and cough. 
+These symptoms are used to develop an mRNA vaccine for COVID-19([1 2]). 
+All signs showed a different level depend on individual patients. 
 
+
+In my project, google search trend data have been used as training data. 
+This is because collecting a lot of patient's private clinical data is difficult. 
+However, internet users' online research activity is recorded on the internet. 
+So, it offers the potential for tracking public health and people's interest. 
+Moreover, we can obtain the data from google research trends and observe the change in specific keywords. 
+I assume that if people have COVID-19 related symptoms, they will google the sign and covid. 
+So, I have collected the data from google trend using keywords individually('symptom + covid"). 
+The google trend gives a time series ranging from 0 to 100, which corresponds to the query term's search intensity. 
+Since Google Trend data is already processed by Google(7), It is not easy to predict the actual number of the patient. 
+
+However, by simplify the data increase and decrease, we can reduce the complexity and expect the increase and decrease. 
+By using the daily searching trend, I calculated the increase and decrease of the searching trend. 
+
+If the google trend 'fever covid' value is 46 on April 18 and 34 on April 17, 
+I set google trend values is increased, '1'.(Orange, TABLE1) and if it is decreased, I set it as '0'.
+
+
+The number of COVID-19 Cases data is used from the CDC's daily trends cases. 
+I judged the increase and decrease of the daily patient by comparing seven days after searching. 
+For example, on April 16, the 'fever covid' search trend increased, '1', then we compare today's patient number increase and seven days after the patient number increase. 
+If 7days after patients are growing, the predicted number of patients is increased('1') on April 17. (Yellow, TABLE1). 
+
+
+
+Reference
+[1] L. A. Jackson et al., An mRNA Vaccine against SARS-CoV-2 — Preliminary Report. New England Journal of Medicine 383, 1920-1931 (2020).
+[2] 2.	M. J. Mulligan et al., Phase I/II study of COVID-19 RNA vaccine BNT162b1 in adults. Nature 586, 589-593 (2020)
