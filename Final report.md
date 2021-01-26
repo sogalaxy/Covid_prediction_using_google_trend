@@ -25,7 +25,7 @@ If the google trend 'fever covid' value is 46 on April 18 and 34 on April 17,
 I set google trend values is increased, '1'.(Orange, TABLE1) and if it is decreased, I set it as '0'.
 
 
-![1](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/1.jpg)
+![1](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/1.jpg)
 
 The number of COVID-19 Cases data is used from the CDC's daily trends cases. 
 I judged the increase and decrease of the daily patient by comparing seven days after searching. 
