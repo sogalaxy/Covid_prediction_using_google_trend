@@ -32,10 +32,10 @@ I judged the increase and decrease of the daily patient by comparing seven days 
 For example, on April 16, the 'fever covid' search trend increased, '1', then we compare today's patient number increase and seven days after the patient number increase. 
 If 7days after patients are growing, the predicted number of patients is increased('1') on April 17. (Yellow, TABLE1). 
 
-![2](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/2.png)
+![2](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/2.png)
 
 
-![3](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/3.png)
+![3](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/3.png)
 
 
 
@@ -64,7 +64,7 @@ By randomly assigning the element, Random forest can find the best-fit feature f
 The random forest algorithm takes more computing time than the decision tree because it considers all mixed features and the number of trees. 
 In the Decision tree and random forest tree, we can find which feature most influences the results.
 
-![4](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/4.png)
+![4](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/4.png)
 
 
 Random forest's Score shows the high scores in all scores. 
@@ -74,10 +74,10 @@ However, the number of samples is only 4, so it's hard to say this leaf node is 
 In the Random forest's tree, 'arthralgia covid' is also the root node and decision nodes are 'fatigue covid' and 'fever covid' as follows. 
 Mean square error is calculated to evaluate each node. 'arthralgia covid' -> 'fever covid' tree showed lower than 'arthralgia covid' -> 'fatigue covid' (0.173 -> 0.22 ), but it also has less sample number
 
-![5](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/5.png)
+![5](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/5.png)
 
 
-![6](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/6.png)
+![6](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/6.png)
 
 
 
@@ -86,10 +86,10 @@ However, in the random forest tree, the most important feature is 'fever covid,'
 As a result, I think the random forest is best fit model for prediction in the first prediction. 
 Because it showed a high Score in prediction, recall, and accuracy, it also considers all the features in the data set.
 
-![7](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/7.png)
+![7](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/7.png)
 
 
-![8](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/8.png)
+![8](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/8.png)
 
 
 
@@ -103,7 +103,7 @@ The optimal number of layers is calculated by increasing the layer and comparing
 KNN is one of the simple algorithms that classify the input by determining its similarity near value based on each data's distance.
 The result showed that SVM significantly high in recall(sensitivity), and precision and accuracy is similar in both algorithms. 
 
-![9](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/9.png)
+![9](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/9.png)
 
 
 
@@ -115,7 +115,7 @@ When we compared all algorithm's Scores, the Random forest algorithm showed the 
 In clinical prediction, recall might be more important than others because we need to prevent worst-case inpatient. 
 As a result, I think the SVM algorithm would best fit my COVID-19 prediction project.
 
-![10](http://sogalaxy.github.io/Covid_prediction_using_google_trend/images/10.png)
+![10](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/10.png)
 
 
 
