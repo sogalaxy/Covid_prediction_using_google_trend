@@ -115,7 +115,7 @@ When we compared all algorithm's Scores, the Random forest algorithm showed the 
 In clinical prediction, recall might be more important than others because we need to prevent worst-case inpatient. 
 As a result, I think the SVM algorithm would best fit my COVID-19 prediction project.
 
-![10](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/10.png){: .align-center}
+![10](https://github.com/sogalaxy/Covid_prediction_using_google_trend/blob/main/images/10.png)
 
 
 
